@@ -44,8 +44,8 @@ function NavBar() {
             <span className='navbar-text'>
                 <div className='social-icon'>
                     <a href='mailto:o.labrecque.lacassse@gmail.com'><img src={gmailLogo} alt="gmail-logo" /></a>
-                    <a href='https:/www.linkedin.com/in/olivier-labrecque-lacasse/'><img src={linkedinLogo} alt="linkedin-logo" /></a>
                     <a href='https:/www.github.com/tetedecactus'><img src={githubLogo} alt="github-logo" /></a>
+                    <a href='https:/www.linkedin.com/in/olivier-labrecque-lacasse/'><img src={linkedinLogo} alt="linkedin-logo" /></a>
                 </div>
                 <button className='vvd' onClick={() => console.log('connect')}><span> Let's Connect</span></button>
             </span>
