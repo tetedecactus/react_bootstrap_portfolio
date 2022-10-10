@@ -1,12 +1,11 @@
 import './style/App.scss';
-import HomePage from './HomePage';
 import NavBar from './components/Navbar';
+// import HomePage from './HomePage';
 
 function App() {
   return (
     <div className="App">
         <NavBar/>
-        <HomePage/>
     </div>
   );
 }
