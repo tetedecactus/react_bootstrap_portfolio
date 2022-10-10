@@ -1,9 +1,13 @@
 import { useState, useEffect } from 'react';
 import { Nav, Navbar, Container } from 'react-bootstrap';
+import '../style/NavBar.scss'
 import logo from '../assets/img/Logo.svg';
-import githubLogo from '../assets/img/icon-github.svg'
-import gmailLogo from '../assets/img/icon-gmail.svg'
-import linkedinLogo from '../assets/img/icon-linkedin.svg'
+// import githubLogo from '../assets/img/icon-github.svg'
+// import gmailLogo from '../assets/img/icon-gmail.svg'
+// import linkedinLogo from '../assets/img/icon-linkedin.svg'
+import githubLogo from '../assets/img/icons8-github-purple.svg'
+import gmailLogo from '../assets/img/icons8-gmail-purple.svg'
+import linkedinLogo from '../assets/img/icons8-linkedin-purple.svg'
 
 
 function NavBar() {
@@ -30,12 +34,12 @@ function NavBar() {
     }
 
     return (
-        <Navbar bg="dark" expand="lg" className={scrolled ? "scrolled" : ''}>
+        <Navbar  expand="lg" className={scrolled ? "scrolled" : ''}>
         <Container>
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="#home" className='logo-header'>
                 <img src={logo} width="100" height="80" className="d-inline-block align-top" alt="logo"/>
             </Navbar.Brand>
-            <Nav className="me-auto">
+            <Nav className="text-header">
                 <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
                 <Nav.Link href="#skill" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                 <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
@@ -47,7 +51,7 @@ function NavBar() {
                     <a href='https:/www.github.com/tetedecactus'><img src={githubLogo} alt="github-logo" /></a>
                     <a href='https:/www.linkedin.com/in/olivier-labrecque-lacasse/'><img src={linkedinLogo} alt="linkedin-logo" /></a>
                 </div>
-                <button className='vvd' onClick={() => console.log('connect')}><span> Let's Connect</span></button>
+                {/* <button className='vvd' onClick={() => console.log('connect')}><span> Let's Connect</span></button> */}
             </span>
         </Container>
         </Navbar>
