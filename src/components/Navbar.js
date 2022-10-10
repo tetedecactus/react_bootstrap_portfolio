@@ -1,7 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../Logo.svg';
+import logo from '../images/Logo.svg';
+import githubLogo from '../images/icon-github.svg'
+import gmailLogo from '../images/icon-gmail.svg'
+import linkedinLogo from '../images/icon-linkedin.svg'
 
 
 function NavBar() {
@@ -13,10 +16,16 @@ function NavBar() {
         </Navbar.Brand>
         <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About Me</Nav.Link>
-            <Nav.Link href="#project">Project</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#skill">Skills</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
         </Nav>
+        <span className='navbar-text'>
+            <div className='social-icon'>
+                <a href='mailto:o.labrecque.lacassse@gmail.com'><img src={gmailLogo} alt="gmail-logo" /></a>
+                <a href='https:/www.linkedin.com/in/olivier-labrecque-lacasse/'><img src={linkedinLogo} alt="linkedin-logo" /></a>
+                <a href='https:/www.github.com/tetedecactus'><img src={githubLogo} alt="github-logo" /></a>
+            </div>
+        </span>
       </Container>
     </Navbar>
   );
