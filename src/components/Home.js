@@ -48,7 +48,7 @@ function Home() {
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi I'm a Programming Student / `}<span className="wrap">{text}</span></h1>
                         <p>Always having several projects on the go, I often wear several hats 
-                            such as co-founder of a digital company, developer, client coordinator, 
+                            such as founder of my own digital company, developer, client coordinator, 
                             project manager, etc. My numerous projects in my career path as well as
                             my professional experiences have given me the ability to multi-task, 
                             manage different projects within defined deadlines while prioritizing. 
