@@ -63,7 +63,7 @@ function Home() {
                 </Row>
             </Container>
         </section >
-    )
+    );
 }
 
 export default Home;
