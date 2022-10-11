@@ -8,6 +8,8 @@ import logo from '../assets/img/Logo.svg';
 import githubLogo from '../assets/img/icons8-github-purple.svg'
 import gmailLogo from '../assets/img/icons8-gmail-purple.svg'
 import linkedinLogo from '../assets/img/icons8-linkedin-purple.svg'
+import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
+import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 
 
 function NavBar() {
@@ -35,25 +37,30 @@ function NavBar() {
 
     return (
         <Navbar  expand="lg" className={scrolled ? "scrolled" : ''}>
-        <Container>
-            <Navbar.Brand href="#home" className='logo-header'>
-                <img src={logo} width="100" height="80" className="d-inline-block align-top" alt="logo"/>
-            </Navbar.Brand>
-            <Nav className="text-header">
-                <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-                <Nav.Link href="#skill" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+            <Container>
+                <Navbar.Brand href="#home" className='logo-header'>
+                    <img src={logo} width="100" height="80" className="d-inline-block align-top" alt="logo"/>
+                </Navbar.Brand>
+                <NavbarToggle aria-controls="basic-navbar-nav">
+                    <span className="navbar-toggler-icon"></span>
+                </NavbarToggle>
+                <NavbarCollapse id="basic-navbar-nav">
+                    <Nav className="text-header">
+                        <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+                        <Nav.Link href="#skill" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+                        <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
 
-            </Nav>
-            <span className='navbar-text'>
-                <div className='social-icon'>
-                    <a href='mailto:o.labrecque.lacassse@gmail.com'><img src={gmailLogo} alt="gmail-logo" /></a>
-                    <a href='https:/www.github.com/tetedecactus'><img src={githubLogo} alt="github-logo" /></a>
-                    <a href='https:/www.linkedin.com/in/olivier-labrecque-lacasse/'><img src={linkedinLogo} alt="linkedin-logo" /></a>
-                </div>
-                {/* <button className='vvd' onClick={() => console.log('connect')}><span> Let's Connect</span></button> */}
-            </span>
-        </Container>
+                    </Nav>
+                    <span className='navbar-text'>
+                        <div className='social-icon'>
+                            <a href='mailto:o.labrecque.lacassse@gmail.com'><img src={gmailLogo} alt="gmail-logo" /></a>
+                            <a href='https:/www.github.com/tetedecactus'><img src={githubLogo} alt="github-logo" /></a>
+                            <a href='https:/www.linkedin.com/in/olivier-labrecque-lacasse/'><img src={linkedinLogo} alt="linkedin-logo" /></a>
+                        </div>
+                        <button className='vvd' onClick={() => console.log('connect')}><span> Let's Connect</span></button>
+                    </span>
+                </NavbarCollapse>
+            </Container>
         </Navbar>
     );
 }
