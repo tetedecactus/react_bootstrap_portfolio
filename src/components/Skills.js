@@ -3,7 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import cpp from "../assets/img/cplusplus-logo.svg"
 import c from "../assets/img/c-logo.svg"
-import db from "../assets/img/db-logo.svg"
+import db from "../assets/img/database.svg"
 import html from "../assets/img/html-logo.svg"
 import css from "../assets/img/css-logo.svg"
 import js from "../assets/img/js-logo.svg"
