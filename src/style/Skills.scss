@@ -4,16 +4,22 @@
 }
 
 skill-box {
-    background-color: #7f5af2;
+    background-image: #7f5af2;
     border-radius: 8px;
     text-align: center;
     padding: 60px 50px;
     margin-top: -60px;
 }
 
-.skill h5 {
-    font-size: 35px;
+.skill h2 {
+    text-align: center;
+    font-size: 45px;
     font-weight: 700;
+}
+
+.skill h5 {
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .skill p {
@@ -32,6 +38,11 @@ skill-box {
 .skill-slider .item img {
     width: 50%;
     margin: 0 auto 15px auto;
+}
+
+.skill-slider .item img .pg-bar {
+    width: 50%;
+    margin: 15px auto 15px auto;
 }
 
 // .backgrounf-image-left {

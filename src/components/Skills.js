@@ -58,34 +58,34 @@ function Skills() {
                             <p>Skills Description</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <h5>HTML/CSS/JSt</h5>
+                                    <h5>HTML/CSS/JS</h5>
                                     <img src={html} alt="html logo" />
                                     <img src={css} alt="css logo" />
                                     <img src={js} alt="javascript logo" />
-                                    <img src={pg_50} alt="progression bar 50%" />
+                                    <img className="pg-bar" src={pg_50} alt="progression bar 50%" />
                                 </div>
                                 <div className="item">
                                     <h5>WordPress</h5>
                                     <img src={wordpress} alt="wordpress logo" />
-                                    <img src={pg_70} alt="progression bar 70%" />
+                                    <img className="pg-bar" src={pg_70} alt="progression bar 70%" />
                                 </div>
                                 <div className="item">
                                     <h5>C & C++</h5>
                                     <img src={c} alt="c logo" />
-                                    <img src={pg_90} alt="progression bar 90%" />
+                                    <img className="pg-bar" src={pg_90} alt="progression bar 90%" />
                                     <img src={cpp} alt="c++ logo" />
-                                    <img src={pg_70} alt="progression bar 70%" />
+                                    <img className="pg-bar" src={pg_70} alt="progression bar 70%" />
                                 </div>
                                 <div className="item">
                                     <h5>React & Angular</h5>
                                     <img src={react} alt="react logo" />
                                     <img src={angular} alt="angular logo" />
-                                    <img src={pg_50} alt="progression bar 50%" />
+                                    <img className="pg-bar" src={pg_50} alt="progression bar 50%" />
                                 </div>
                                 <div className="item">
                                     <h5>DataBase</h5>
                                     <img src={db} alt="database logo" />
-                                    <img src={pg_30} alt="progression bar 30%" />
+                                    <img className="pg-bar" src={pg_30} alt="progression bar 30%" />
                                 </div>
                             </Carousel>
                         </div>
