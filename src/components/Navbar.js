@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import '../style/NavBar.scss'
-import logo from '../assets/img/Logo.svg';
+import logo from '../assets/img/logo.svg';
 // import githubLogo from '../assets/img/icon-github.svg'
 // import gmailLogo from '../assets/img/icon-gmail.svg'
 // import linkedinLogo from '../assets/img/icon-linkedin.svg'
@@ -10,7 +10,6 @@ import gmailLogo from '../assets/img/icons8-gmail-purple.svg'
 import linkedinLogo from '../assets/img/icons8-linkedin-purple.svg'
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
-
 
 function NavBar() {
     const [ activeLink, setActiveLink ] = useState('home');

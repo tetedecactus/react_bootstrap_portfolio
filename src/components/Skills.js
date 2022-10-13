@@ -19,10 +19,7 @@ import pg_70 from  "../assets/img/prog70-mauve.svg"
 // import pg_70 from  "../assets/img/prog70-black.svg"
 import pg_90 from  "../assets/img/prog90-mauve.svg"
 // import pg_90 from  "../assets/img/prog90-black.svg"
-
 import '../style/Skills.scss'
-
-
 
 function Skills() {
 
