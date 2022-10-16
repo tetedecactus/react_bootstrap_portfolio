@@ -1,0 +1,23 @@
+NavBar
+	alligner les truc a droite
+
+Banner
+	margin bottom entre button et photo (responsive (md et xs)
+
+Skill
+	Petit text pour decrerir comment je get mes skills
+	centrer titlte h2 des element carousel 
+	agrandir les carousel img
+Project
+	centrer les image et faire quil sort en gros on click
+	ajouter quelque projet pertinent
+	modifiter taille des cadres
+
+contact
+	ajouter le contact form de East Claw ou career
+
+footer
+	ajouter footer
+	mettre les media social icon comme dans le nav bar
+	petite description de moi
+	
