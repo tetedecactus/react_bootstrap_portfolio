@@ -57,7 +57,7 @@ function Projects() {
                                     </Nav> */}
                                     <TabContent id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                                         <TabPane eventKey="first">
-                                            <Row>
+                                            <Row className="justify-content-center">
                                                 {
                                                     projects.map((project, index) => {
                                                         return (
