@@ -22,3 +22,6 @@ https://codepen.io/nabeelfaheem/pen/JjPLPOp
 https://www.geeksforgeeks.org/how-to-show-images-on-click-using-html/
  
 ----------------------------
+
+Navbar toggle button -> [X] [lll]
+https://stackoverflow.com/questions/37758887/animated-x-icon-for-bootstrap-toggle
