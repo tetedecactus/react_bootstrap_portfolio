@@ -1,7 +1,15 @@
+@media screen and (min-width: 0px) and (max-width: 1200px) {
+	nav.navbar{
+	  background-color: #010101 !important;
+ 	  transition: all 1s ease;
+
+	}
+  }
+
 nav.navbar {
   padding: 10px 0;
   position: fixed;
-  width: 100%;
+  width: 100%; 
   top: 0;
   z-index: 9999;
   transition: 0.32 ease-in-out;

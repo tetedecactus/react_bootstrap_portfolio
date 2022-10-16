@@ -43,7 +43,8 @@ function Projects() {
                                 <h2>Projects</h2>
                                 <p>info des projet</p>
                                 <TabContainer id="projects-tabs" defaultActiveKey="first">
-                                    <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                                    {/* pour plusieur tab de projet ( futur ) */}
+                                    {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                         <Nav.Item>
                                             <Nav.Link eventKey="first">Tab One</Nav.Link>
                                         </Nav.Item>
@@ -53,7 +54,7 @@ function Projects() {
                                         <Nav.Item>
                                             <Nav.Link eventKey="third">Tab Three</Nav.Link>
                                         </Nav.Item>
-                                    </Nav>
+                                    </Nav> */}
                                     <TabContent id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                                         <TabPane eventKey="first">
                                             <Row>

@@ -1,8 +1,4 @@
-NavBar
-	alligner les truc a droite
 
-Banner
-	margin bottom entre button et photo (responsive (md et xs)
 
 Skill
 	Petit text pour decrerir comment je get mes skills

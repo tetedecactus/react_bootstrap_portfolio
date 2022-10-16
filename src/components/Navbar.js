@@ -17,7 +17,7 @@ function NavBar() {
 
     useEffect(() => {
         const onScroll = () => {
-            if ( window.scrollY> 50 ) {
+            if ( window.scrollY > 50 ) {
                 setScrolled(true);
             } 
             else {
@@ -38,16 +38,16 @@ function NavBar() {
         <Navbar  expand="lg" className={scrolled ? "scrolled" : ''}>
             <Container>
                 <Navbar.Brand href="#home" className='logo-header'>
-                    <img src={logo} width="100" height="80" className="d-inline-block align-top" alt="logo"/>
+                    <img src={logo} width="100" height="150" className="d-inline-block align-top" alt="logo"/>
                 </Navbar.Brand>
                 <NavbarToggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toggler-icon"></span>
                 </NavbarToggle>
                 <NavbarCollapse id="basic-navbar-nav">
-                    <Nav className="text-header">
+                    <Nav className="text-header ms-auto mb-6 mb-lg-6">
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-                        <Nav.Link href="#skill" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                        <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                        <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+                        <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
 
                     </Nav>
                     <span className='navbar-text'>
