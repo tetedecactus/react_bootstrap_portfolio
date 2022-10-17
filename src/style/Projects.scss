@@ -84,10 +84,17 @@
 }
 
 .proj-imgbx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
     position: relative;
     border-radius: 30px;
     overflow: hidden;
     margin-bottom: 24px;
+    width: 420px;
+    height: 600px;
 }
 
 .proj-imgbx::before {

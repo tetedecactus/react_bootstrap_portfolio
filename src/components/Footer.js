@@ -10,6 +10,7 @@ function Footer() {
             <h3><span>Olivier Labrecque Lacasse</span></h3>
             <p><span>191 Saint-Sauveur, Quebec, Quebec</span></p>
             <p><span>1-418-456-7233</span></p>
+            <p><span>o.labrecque.lacasse@gmail.com</span></p>
           </Col>
           <Col size={12} sm={6}>
             <h3><span>About Me</span></h3>
@@ -23,7 +24,7 @@ function Footer() {
                 notions d’organisation et de leadership.</p>
           </Col>
           <Col size={12} sm={12} className="text-center text-sm-center">
-            <p id="info-hv">Copyright 2022. My Brain</p>
+            <p id="info-me">Copyright 2022. My Brain</p>
           </Col>
         </Row>
       </Container>

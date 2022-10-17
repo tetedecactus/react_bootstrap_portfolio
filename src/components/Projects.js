@@ -3,6 +3,7 @@ import ProjectCard from './ProjectCard'
 import cub3dImg from  "../assets/img/cub3d.PNG"
 import eastclawImg from  "../assets/img/eastclaw.PNG"
 import fdfImg from  "../assets/img/fdf.PNG"
+import onePiece from  "../assets/img/op-theme.PNG"
 import transcendenceImg from  "../assets/img/transcendance.PNG"
 import '../style/Projects.scss'
 import TrackVisibility from 'react-on-screen';
@@ -29,6 +30,11 @@ function Projects() {
             title: "transcendance",
             description: "Pong Game Web Site | Chats | Stats ",
             imgUrl: transcendenceImg,
+        },
+        {
+            title: "VS CODE theme",
+            description: "Theme base on the Anime One Piece",
+            imgUrl: onePiece,
         },
     ];
 
