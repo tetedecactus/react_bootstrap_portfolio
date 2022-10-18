@@ -56,7 +56,7 @@ function NavBar() {
                             <a href='https:/www.github.com/tetedecactus'><img src={githubLogo} alt="github-logo" /></a>
                             <a href='https:/www.linkedin.com/in/olivier-labrecque-lacasse/'><img src={linkedinLogo} alt="linkedin-logo" /></a>
                         </div>
-                        <button  className='vvd' onClick={() => console.log('connect')}><a href="#contact"><span>Let's Connect</span></a></button>
+                        <button  className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
                     </span>
                 </NavbarCollapse>
             </Container>

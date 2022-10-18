@@ -10,6 +10,9 @@ import js from "../assets/img/js-logo.svg"
 import angular from  "../assets/img/icons8-angularjs-96.svg"
 import react from  "../assets/img/react-logo.svg"
 import wordpress from  "../assets/img/wp-mauve.svg"
+import bootstrap from  "../assets/img/bootstrap-logo.svg"
+import nestjs from  "../assets/img/nestjs-logo.svg"
+import postgresql from  "../assets/img/icons8-postgresql-48.svg"
 // import wordpress from  "../assets/img/wp-black.svg"
 import pg_30 from  "../assets/img/prog30-mauve.svg"
 // import pg_30 from  "../assets/img/prog30-black.svg"
@@ -67,6 +70,17 @@ function Skills() {
                                     <img className="pg-bar" src={pg_70} alt="progression bar 70%" />
                                 </div>
                                 <div className="item">
+                                    {/* <h5>React & Angular</h5> */}
+                                    <img src={react} alt="react logo" />
+                                    <img src={angular} alt="angular logo" />
+                                    <img className="pg-bar" src={pg_50} alt="progression bar 50%" />
+                                </div>
+                                <div className="item">
+                                    {/* <h5>React & Angular</h5> */}
+                                    <img src={bootstrap} alt="bootstrap logo" />
+                                    <img className="pg-bar" src={pg_50} alt="progression bar 50%" />
+                                </div>
+                                <div className="item">
                                     {/* <h5>C & C++</h5> */}
                                     <img src={c} alt="c logo" />
                                     <img className="pg-bar" src={pg_90} alt="progression bar 90%" />
@@ -74,14 +88,15 @@ function Skills() {
                                     <img className="pg-bar" src={pg_70} alt="progression bar 70%" />
                                 </div>
                                 <div className="item">
-                                    {/* <h5>React & Angular</h5> */}
-                                    <img src={react} alt="react logo" />
-                                    <img src={angular} alt="angular logo" />
-                                    <img className="pg-bar" src={pg_50} alt="progression bar 50%" />
+                                    {/* <h5>DataBase</h5> */}
+                                    <img src={db} alt="database logo" />
+                                    <img className="pg-bar" src={pg_30} alt="progression bar 30%" />
+                                    <img src={postgresql} alt="PostgreSQL logo" />
+                                    <img className="pg-bar" src={pg_30} alt="progression bar 30%" />
                                 </div>
                                 <div className="item">
                                     {/* <h5>DataBase</h5> */}
-                                    <img src={db} alt="database logo" />
+                                    <img src={nestjs} alt="nestjs logo" />
                                     <img className="pg-bar" src={pg_30} alt="progression bar 30%" />
                                 </div>
                             </Carousel>

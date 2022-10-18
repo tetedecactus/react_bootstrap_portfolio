@@ -97,7 +97,7 @@ span.navbar-text {
 
 .navbar-text button  {
 	font-weight: 700;
-	color: #7f5af2 !important;
+	color: #7f5af2;
 	border: 1px solid #7f5af2;
 	padding: 18px 34px;
 	font-size: 20px;
@@ -107,10 +107,8 @@ span.navbar-text {
 	transition: 0.3s ease-in-out;
 }
 
-.navbarr-text button span a {
+.navbarr-text button span  {
 	z-index: 1;
-	color: #7f5af2 !important;
-
 }
 
 .navbar-text button::before {
