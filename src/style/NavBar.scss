@@ -95,9 +95,9 @@ span.navbar-text {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(0);
 }
 
-.navbar-text button {
+.navbar-text button  {
 	font-weight: 700;
-	color: #7f5af2;
+	color: #7f5af2 !important;
 	border: 1px solid #7f5af2;
 	padding: 18px 34px;
 	font-size: 20px;
@@ -107,8 +107,10 @@ span.navbar-text {
 	transition: 0.3s ease-in-out;
 }
 
-.navbarr-text button span {
+.navbarr-text button span a {
 	z-index: 1;
+	color: #7f5af2 !important;
+
 }
 
 .navbar-text button::before {
