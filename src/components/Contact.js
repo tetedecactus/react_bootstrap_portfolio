@@ -52,7 +52,7 @@ function Contact() {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <form onSubmit={sendEmail}>
+                <form ref={form} onSubmit={sendEmail}>
                   <Row className="justify-content-center">
                     <Col size={12} xs={10} sm={9} md={6}   className="px-1">
                       <input type="text" name="user_name" placeholder="First Name"   required />

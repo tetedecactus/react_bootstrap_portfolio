@@ -15,7 +15,12 @@ footer
 	mettre les media social icon comme dans le nav bar
 	petite description de moi
 	
+404
+	faire un page 404
 
+Host sur pi
+	buy domaine
+	put on it
 ---- IMAGE POP UP ----
 
 https://codepen.io/nabeelfaheem/pen/JjPLPOp
