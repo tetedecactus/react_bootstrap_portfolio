@@ -8,7 +8,7 @@ Project
 	modifiter taille des cadres
 
 contact
-	ajouter le contact form de East Claw ou career
+	ajouter le contact form de East Claw ou career X
 
 footer
 	ajouter footer

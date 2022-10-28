@@ -1,5 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "../style/Footer.scss";
+import githubLogo from '../assets/img/icons8-github-purple.svg'
+import gmailLogo from '../assets/img/icons8-gmail-purple.svg'
+import linkedinLogo from '../assets/img/icons8-linkedin-purple.svg'
 
 function Footer() {
   return (
@@ -11,6 +14,11 @@ function Footer() {
             <p><span>191 Saint-Sauveur, Quebec, Quebec</span></p>
             <p><span>1-418-456-7233</span></p>
             <p><span>o.labrecque.lacasse@gmail.com</span></p>
+            <div className='social-icon-footer'>
+              <a href='mailto:o.labrecque.lacassse@gmail.com'><img src={gmailLogo} alt="gmail-logo" /></a>
+              <a href='https:/www.github.com/tetedecactus'><img src={githubLogo} alt="github-logo" /></a>
+              <a href='https:/www.linkedin.com/in/olivier-labrecque-lacasse/'><img src={linkedinLogo} alt="linkedin-logo" /></a>
+            </div>
           </Col>
           <Col size={12} sm={6}>
             <h3><span>About Me</span></h3>
