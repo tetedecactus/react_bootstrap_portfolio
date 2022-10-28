@@ -6,6 +6,7 @@ import TrackVisibility from 'react-on-screen';
 import phone from '../assets/img/phone.png';
 import position from '../assets/img/address.png';
 import mail from '../assets/img/gmail.png';
+import ContactFormToast from "./Toast";
 
 function Contact() {
 
@@ -48,6 +49,7 @@ function Contact() {
               </div>
             </section>
           </Col>
+          {/* <ContactFormToast /> */}
           <Col  className="align-items-center"  lg={9} md={9} xs={12}>
             <TrackVisibility>
               {({ isVisible }) =>
