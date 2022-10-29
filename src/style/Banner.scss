@@ -1,6 +1,8 @@
 .banner {
-    margin-top: 0;
-    padding: 260px 0 100px 0;
+    // height: auto;
+    width: 100%;
+    // margin-top: 0;
+    padding: 160px 0 100px 0;
     // background-image: url();
     // background-position: top center;
     // background-size: cover;
@@ -8,6 +10,7 @@
 }
 
 .banner .tagline {
+    display: flex-wrap;
     font-weight: 700;
     letter-spacing: 0.8px;
     padding: 8px 10px;
@@ -17,6 +20,7 @@
     font-size: 20px;
     margin-bottom: 16px;
     display: inline-block;
+    overflow-x: hidden;
 }
 
 .banner h1 {

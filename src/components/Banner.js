@@ -43,7 +43,7 @@ function Home() {
     return (
         <section className="banner" id="home">
             <Container>
-                <Row className="align-items-center">
+                <Row className="justify-content-center align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi I'm a Programming Student / `}<span className="wrap">{text}</span></h1>

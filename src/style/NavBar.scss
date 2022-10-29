@@ -4,11 +4,11 @@
  	  transition: all 1s ease;
 
 	}
-  }
+}
 
 nav.navbar {
-  padding: 10px 0;
-  position: fixed;
+//   padding: 10px 0;
+//   position: fixed;
   width: 100%; 
   top: 0;
   z-index: 9999;
@@ -67,7 +67,7 @@ span.navbar-text {
 	line-height: 1;
 	border-radius: 50%;
 	background: transparent;
-	border: 2px solid #7f5af2;
+	border: 2px solid #7f5af2 !important;
 }
 
 .social-icon a::before {
@@ -86,7 +86,7 @@ span.navbar-text {
 }
 
 .social-icon a img {
-	width: 40%;
+	width: 60%;
 	z-index: 1;
 	transition: 0.3s ease-in-out;
 }
@@ -99,7 +99,7 @@ span.navbar-text {
 	font-weight: 700;
 	color: #7f5af2;
 	border: 1px solid #7f5af2;
-	padding: 18px 34px;
+	padding: 16px 32px;
 	font-size: 20px;
 	margin-left: 18px;
 	position: relative;
@@ -144,7 +144,7 @@ nav.navbar .navbar-toggler-icon {
 	width: 24px;
 	height: 17px;
 	background-image: none;
-	position: relative;
+	position: sticky;
 	border-bottom: 2px solid #94a1b2;
 	transition: all 300ms linear;
 	top: -2px;

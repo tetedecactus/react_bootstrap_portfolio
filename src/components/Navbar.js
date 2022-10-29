@@ -41,13 +41,12 @@ function NavBar() {
                     <span className="navbar-toggler-icon"></span>
                 </NavbarToggle>
                 <NavbarCollapse id="basic-navbar-nav">
-                    <Nav className="text-header ms-auto mb-6 mb-lg-6">
+                    <Nav className="text-header ms-auto mb-6 lg-6">
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
                         <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                         <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-
                     </Nav>
-                    <span className='navbar-text'>
+                    <span xs={12} className='navbar-text'>
                         <div className='social-icon'>
                             <a href='mailto:o.labrecque.lacassse@gmail.com'><img src={gmailLogo} alt="gmail-logo" /></a>
                             <a href='https:/www.github.com/tetedecactus'><img src={githubLogo} alt="github-logo" /></a>

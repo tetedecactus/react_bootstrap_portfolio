@@ -95,7 +95,6 @@ function Contact() {
                       <textarea rows="6" name="message" placeholder="Message"  required ></textarea>
                       <button className="btn" type="submit" value="Send"><span>Send</span></button>
                       <ToastContainer />
-                    
                     </Col>
                   </Row>
                 </form>

@@ -1,23 +1,16 @@
-Skill
-	Petit text pour decrerir comment je get mes skills
-	centrer titlte h2 des element carousel 
-	agrandir les carousel img
-Project
-	centrer les image et faire quil sort en gros on click
-	ajouter quelque projet pertinent
-	modifiter taille des cadres
-	ajouter des modale
-
-contact
-	ajouter le contact form de East Claw ou career X
-
-footer
-	ajouter footer
-	mettre les media social icon comme dans le nav bar
-	petite description de moi
+General 
+	clip les page
+	empecher le zoom sur mobile
 	
-404
-	faire un page 404
+
+Project 
+	mettre dans un  modal avec des description
+
+Bug 
+	- page scroll up quand on raptisse
+	- some coucleur change on deployement
+	- toggle Navbar icons bouge sur mobile deployer
+	- Page 404 de nginx au lieu de la mienne
 
 Host sur pi
 	buy domaine
