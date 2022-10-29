@@ -7,9 +7,35 @@ import phone from '../assets/img/phone.png';
 import position from '../assets/img/address.png';
 import mail from '../assets/img/gmail.png';
 import ContactFormToast from "./Toast";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
+  const notify = () => {
+    toast.success('Message Send!', {
+    position: "top-center",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "dark",
+    });
+  };
 
+  const errorNotify = () => {
+    toast.error('Error Message Not Send', {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      });
+  }
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -17,12 +43,9 @@ function Contact() {
 
     emailjs.sendForm('service_ph749jp', 'template_brxr1ot', form.current, 'ACe5u4N2elgnIIxMo')
       .then((result) => {
-          console.log(result.text);
-          console.log("message sent");
+        notify();
       }, (error) => {
-          console.log(error.text);
-          console.log("message not sent");
-
+        errorNotify();
       });
   };
 
@@ -70,8 +93,9 @@ function Contact() {
                     </Col>
                     <Col size={12} xs={10} sm={9} md={12} className="px-1">
                       <textarea rows="6" name="message" placeholder="Message"  required ></textarea>
-                      <button type="submit" value="Send"><span>Send</span></button>
-                      {/* <button type="submit"><span>{buttonText}</span></button> */}
+                      <button className="btn" type="submit" value="Send"><span>Send</span></button>
+                      <ToastContainer />
+                    
                     </Col>
                   </Row>
                 </form>

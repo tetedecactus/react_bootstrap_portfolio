@@ -1,21 +1,18 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './style/App.scss';
-import NavBar from './components/Navbar';
 import Home from './components/Home';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import NotFoundPage from './components/404';
 
 function App() {
   return (
-    <div className="App">
-        <NavBar/>
-        <Home />
-        <Skills />
-        <Projects />
-        <Contact />
-        <Footer />
-    </div>
+	<Router>
+		<div className="App">
+			<Routes>
+				<Route exact path='/' element={<Home />} />
+       			<Route path="*" element={<NotFoundPage />} />
+			</Routes>
+		</div>
+	</Router>
   );
 }
 

@@ -1,1 +1,46 @@
-ff
+.notFound {
+    padding-bottom: 13rem;
+}
+
+.notFound h1 {
+    font-size: 13rem;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+    color: #7f5af2;
+
+}
+
+.notFound button {
+    color: #7f5af2;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    padding: 18px 34px;
+    background-color: transparent;
+    border: 1px solid #7f5af2;
+    margin-bottom: 40px;
+}
+
+.notFound button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+}
+
+.notFound button:hover svg {
+    margin-left: 25px;
+}
+
+.gif {
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 18px 18px 5px #7f5af2;
+    animation: upDown 3s linear infinite;
+}

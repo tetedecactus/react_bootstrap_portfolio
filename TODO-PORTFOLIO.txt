@@ -6,6 +6,7 @@ Project
 	centrer les image et faire quil sort en gros on click
 	ajouter quelque projet pertinent
 	modifiter taille des cadres
+	ajouter des modale
 
 contact
 	ajouter le contact form de East Claw ou career X

@@ -9,7 +9,7 @@ function Footer() {
     <footer className="footer">
       <Container>
         <Row className="justify-content-center">
-          <Col size={12} sm={6}>
+          <Col className="mb-3" size={12} xs={12} sm={7}>
             <h3><span>Olivier Labrecque Lacasse</span></h3>
             <p><span>191 Saint-Sauveur, Quebec, Quebec</span></p>
             <p><span>1-418-456-7233</span></p>
@@ -20,7 +20,7 @@ function Footer() {
               <a href='https:/www.linkedin.com/in/olivier-labrecque-lacasse/'><img src={linkedinLogo} alt="linkedin-logo" /></a>
             </div>
           </Col>
-          <Col size={12} sm={6}>
+          <Col size={12} xs={12} sm={5}>
             <h3><span>About Me</span></h3>
             <p>Je suis sur le point de terminer ma formation en architecture
                 de l’information numérique offerte par 42 Québec et je suis
