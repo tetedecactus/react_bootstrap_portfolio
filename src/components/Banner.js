@@ -60,7 +60,7 @@ function Home() {
                             </Nav.Link>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img href="#contact" src={headerImg} width="400" height="400" atl="Olivier Labrecque-Lacasse" />
+                        <img href="#contact" src={headerImg} width="400" height="400" atl="Photo Olivier Labrecque-Lacasse" />
                     </Col>
                 </Row>
             </Container>

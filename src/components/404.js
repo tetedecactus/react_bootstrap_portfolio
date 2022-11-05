@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Col, Container, Row, Nav } from "react-bootstrap";
 import '../style/404.scss';
 import { ArrowRightCircle } from "react-bootstrap-icons"
@@ -13,7 +12,7 @@ function NotFoundPage() {
                 <Container>
                     <Row className="align-items-center justify-content-center">
                         <Col xs={12} md={6} xl={6}>
-                            <img className="gif" href="#contact" src={travoltaGif} width="400" height="221" atl="Olivier Labrecque-Lacasse" />
+                            <img className="gif" href="#contact" alt='travolta gif' src={travoltaGif} width="400" height="221" atl="Olivier Labrecque-Lacasse" />
                         </Col>
                         <Col xs={12} md={7} xl={5}>
                             <h1>404</h1>

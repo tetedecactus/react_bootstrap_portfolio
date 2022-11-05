@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import { Container, Row, Col } from "react-bootstrap";
 import '../style/Contact.scss'
@@ -6,7 +6,6 @@ import TrackVisibility from 'react-on-screen';
 import phone from '../assets/img/phone.png';
 import position from '../assets/img/address.png';
 import mail from '../assets/img/gmail.png';
-import ContactFormToast from "./Toast";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -41,7 +40,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ph749jp', 'template_brxr1ot', form.current, 'ACe5u4N2elgnIIxMo')
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_EMAILJS_ID)
       .then((result) => {
         notify();
       }, (error) => {
